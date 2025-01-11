@@ -1,0 +1,72 @@
+/* Here would be the styling for the mobile and tablet screen */
+
+/* Mobile only */
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --bd-ff-body: "Sora", serif;
+    --bd-ff-fontawesome: "Font Awesome 6 Pro";
+    --clr-common-white: #fff;
+    --clr-common-black: #000;
+    --clr-common-placeholder: #808080;
+    --clr-common-heading: #191919;
+    --clr-common-body-text: #555555;
+    --clr-common-selection: #262626;
+    --clr-common-body: #fff;
+    --clr-theme-primary: #b18b5e;
+    --clr-theme-secondary: #b18b5e;
+    --clr-theme-grocery: #b18b5e;
+    --clr-text-primary: #fff;
+    --clr-text-secondary: #161616;
+    --clr-text-body: #555555;
+    --clr-text-2: #222222;
+    --clr-text-3: #9f9f9f;
+    --clr-text-4: #808080;
+    --clr-bg-1: #f5f1e6;
+    --clr-bg-2: #191919;
+    --clr-bg-3: #f5f1e6;
+    --clr-bg-4: #f5f1e6;
+    --clr-bg-5: #f5f1e6;
+    --clr-border-1: #2f2f2f;
+    --clr-border-2: rgba(85, 85, 85, 0.2);
+    --clr-gradient-1: linear-gradient(96.81deg, #ff589b 0%, #ffc107 100%);
+    --bd-fw-normal: normal;
+    --bd-fw-thin: 100;
+    --bd-fw-elight: 200;
+    --bd-fw-light: 300;
+    --bd-fw-regular: 400;
+    --bd-fw-medium: 500;
+    --bd-fw-sbold: 600;
+    --bd-fw-bold: 700;
+    --bd-fw-ebold: 800;
+    --bd-fw-black: 900;
+    --bd-fs-body: 14px;
+    --bd-fs-p: 16px;
+    --bd-fs-h1: 80px;
+    --bd-fs-h2: 50px;
+    --bd-fs-h3: 28px;
+    --bd-fs-h4: 24px;
+    --bd-fs-h5: 20px;
+    --bd-fs-h6: 16px;
+  }
+
+  body {
+    font-family: var(--bd-ff-body);
+    font-size: var(--bd-fs-body);
+    font-weight: normal;
+    color: var(--clr-text-body);
+    line-height: 26px;
+  }
+  .header {
+    height: 65px;
+    background: var(--clr-common-white);
+  }
+}
+
+/* Tablet only */
+@media (min-width: 768px) and (max-width: 1024px) {
+}

@@ -1,0 +1,190 @@
+/* Here would be the styling for the laptop screen */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bd-ff-body: "Sora", serif;
+  --bd-ff-fontawesome: "Font Awesome 6 Pro";
+  --clr-common-white: #fff;
+  --clr-common-black: #000;
+  --clr-common-placeholder: #808080;
+  --clr-common-heading: #191919;
+  --clr-common-body-text: #555555;
+  --clr-common-selection: #262626;
+  --clr-common-body: #fff;
+  --clr-theme-primary: #b18b5e;
+  --clr-theme-secondary: #b18b5e;
+  --clr-theme-grocery: #b18b5e;
+  --clr-text-primary: #fff;
+  --clr-text-secondary: #161616;
+  --clr-text-body: #555555;
+  --clr-text-2: #222222;
+  --clr-text-3: #9f9f9f;
+  --clr-text-4: #808080;
+  --clr-bg-1: #f5f1e6;
+  --clr-bg-2: #191919;
+  --clr-bg-3: #f5f1e6;
+  --clr-bg-4: #f5f1e6;
+  --clr-bg-5: #f5f1e6;
+  --clr-border-1: #2f2f2f;
+  --clr-border-2: rgba(85, 85, 85, 0.2);
+  --clr-gradient-1: linear-gradient(96.81deg, #ff589b 0%, #ffc107 100%);
+  --bd-fw-normal: normal;
+  --bd-fw-thin: 100;
+  --bd-fw-elight: 200;
+  --bd-fw-light: 300;
+  --bd-fw-regular: 400;
+  --bd-fw-medium: 500;
+  --bd-fw-sbold: 600;
+  --bd-fw-bold: 700;
+  --bd-fw-ebold: 800;
+  --bd-fw-black: 900;
+  --bd-fs-body: 16px;
+  --bd-fs-p: 16px;
+  --bd-fs-h1: 80px;
+  --bd-fs-h2: 50px;
+  --bd-fs-h3: 28px;
+  --bd-fs-h4: 24px;
+  --bd-fs-h5: 20px;
+  --bd-fs-h6: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--bd-ff-body);
+  font-size: var(--bd-fs-body);
+  font-weight: normal;
+  color: var(--clr-text-body);
+  line-height: 26px;
+}
+.header {
+  width: 100%;
+  height: 92px;
+  background: var(--clr-common-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  width: 80%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.navigations {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.navbar-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.search-bar{
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  border: 1px solid lightgray;
+  /* padding: 10px 10px; */
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 3px 20px;
+  font-size: 20px;
+  color: #000;
+}
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #b18b5e;
+  cursor: pointer;
+}
+.heart{
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+}
+.cart{
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+}
+.hamburger {
+  width: 35px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.hamburger span {
+  width: 100%;
+  height: 2px;
+  background: var(--clr-text-secondary);
+  display: inline-block;
+}
+.hamburger span:nth-child(1) {
+  margin-inline-start: -10px;
+}
+.hero{
+  height: 100vh;
+  width: 100vw;
+   background-image: url(../assets/bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px;
+}
+.left-hero{
+  height: 50%;
+  width: 50%;
+}
+.rec{
+  width: 150px;
+  height: 32px;
+  background: #ebe3d8;
+  text-align: center;
+  color: #b28a5f;
+  padding-top: 2px;
+}
+.text{
+  margin-top: 10px;
+  color: black;
+  font-size: 100px;
+  font-weight: 400;
+}

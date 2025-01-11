@@ -1,0 +1,4 @@
+Use these icons like an image whereever you want to use them. 
+
+For example 
+      <img src="icons/quote.svg" alt="">
