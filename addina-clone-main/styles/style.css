@@ -244,3 +244,32 @@ body {
   scale: 0.8;
   top: -30%;
 }
+.mid {
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+ 
+}
+.delivery {
+  display: flex;
+  gap: 1rem;
+}
+.money {
+  display: flex;
+  gap: 1rem;
+}
+.online {
+  display: flex;
+  gap: 1rem;
+}
+.reliable {
+  display: flex;
+  gap: 1rem;
+}
+.txt{
+  color: var(--clr-common-black);
+  font-weight: bold;
+}
